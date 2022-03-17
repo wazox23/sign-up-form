@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    
+}
+#picture1 {
+    width: 100vh;
+ 
+}
+
+
+.right-side {
+  
+    display: grid;
+    align-items: center;
+    
+    
+}
+
+p span {
+    font-weight: bold;
+    
+}
+
+p {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+form {
+    
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+
+}
