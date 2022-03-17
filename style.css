@@ -24,11 +24,13 @@
 
 p span {
     font-weight: bold;
+    font-size: 30px;
     
 }
 
 p {
     font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
 }
 
 form {
@@ -36,5 +38,37 @@ form {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
+  
 
+}
+
+button {
+   padding: 10px 20px;
+   background-color: salmon;
+   border: none;
+   font-weight: bold;
+   color: white;
+   font-size: 20px;
+   position: relative;
+   left: 20rem;
+   border-radius: 30px;
+}
+
+#signIn{
+    font-weight: bold;
+}
+
+a  {
+    text-decoration: none;
+    color: salmon;
+   
+}
+
+#logo {
+    background-color: salmon;
+    width: 20%;
+    height: 40%;
+    position: relative;
+    bottom: 60%;
+    left: 70%;
 }
